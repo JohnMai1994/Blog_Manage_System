@@ -1,0 +1,19 @@
+2020-09-06 16:57:54.639  INFO 13616 --- [restartedMain] BlogApplication         : Starting BlogApplication on DESKTOP-ODFTKN2 with PID 13616 (F:\SmallProject\blog\target\classes started by Jiadong in F:\SmallProject\blog)
+2020-09-06 16:57:54.645  INFO 13616 --- [restartedMain] BlogApplication         : The following profiles are active: pro
+2020-09-06 16:57:55.428  WARN 13616 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jiadong.blog]' package. Please check your configuration.
+2020-09-06 16:57:56.141  WARN 13616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-06 16:57:56.365  WARN 13616 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-06 16:57:56.396  WARN 13616 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-09-06 16:57:56.608  INFO 13616 --- [restartedMain] BlogApplication         : Started BlogApplication in 2.512 seconds (JVM running for 3.758)
+2020-09-06 18:43:34.229  INFO 15388 --- [restartedMain] BlogApplication         : Starting BlogApplication on DESKTOP-ODFTKN2 with PID 15388 (F:\SmallProject\blog\target\classes started by Jiadong in F:\SmallProject\blog)
+2020-09-06 18:43:34.232  INFO 15388 --- [restartedMain] BlogApplication         : The following profiles are active: pro
+2020-09-06 18:43:34.986  WARN 15388 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jiadong.blog]' package. Please check your configuration.
+2020-09-06 18:43:35.705  WARN 15388 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-06 18:43:35.911  WARN 15388 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-06 18:43:36.134  INFO 15388 --- [restartedMain] BlogApplication         : Started BlogApplication in 2.589 seconds (JVM running for 3.853)
+2020-09-06 18:45:02.981  INFO 4524 --- [restartedMain] BlogApplication         : Starting BlogApplication on DESKTOP-ODFTKN2 with PID 4524 (F:\SmallProject\blog\target\classes started by Jiadong in F:\SmallProject\blog)
+2020-09-06 18:45:02.983  INFO 4524 --- [restartedMain] BlogApplication         : The following profiles are active: pro
+2020-09-06 18:45:04.321  WARN 4524 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.jiadong.blog]' package. Please check your configuration.
+2020-09-06 18:45:05.631  WARN 4524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-06 18:45:05.860  WARN 4524 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-06 18:45:06.139  INFO 4524 --- [restartedMain] BlogApplication         : Started BlogApplication in 3.981 seconds (JVM running for 5.429)
