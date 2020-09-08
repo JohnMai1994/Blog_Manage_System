@@ -10,25 +10,34 @@
     <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
     <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
     <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="../static/lib/editormd/css/editormd.min.css" th:href="@{/lib/editormd/css/editormd.min/css}">
 
 </head>
 <body>
 
 <!--导航-->
-<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini">
+
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
-            <h2 class="ui teal header item">Blog</h2>
-            <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
+            <h2 class="ui teal header item">管理后台</h2>
+            <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>博客</a>
             <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
             <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
-            <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==4} ? 'active'"><i class="clone icon"></i>归档</a>
-            <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==5} ? 'active'"><i class="info icon"></i>关于我</a>
 
-            <div class="right m-item item m-mobile-hide">
-                <div class="ui icon inverted transparent input">
-                    <input type="text" placeholder="Search...">
-                    <i class="search link icon"></i>
+
+            <div class="right menu">
+                <div class="ui dropdown m-item m-mobile-hide item">
+                    <div class="text">
+                        <img src="https://picsum.photos/id/10/100/100" alt="" class="ui avatar image">
+                        John Mai
+                    </div>
+                    <i class="dropdown icon"></i>
+
+                    <div class="menu">
+                        <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -39,8 +48,6 @@
     </a>
 </nav>
 
-
-
 <!--底部-->
 <footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
     <div class="ui center aligned container">
@@ -48,7 +55,7 @@
             <div class="three wide column">
                 <div class="ui inverted link list">
                     <div class="item">
-                        <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui rounded image" alt="" style="width: 110px;">
+                        <img src="../../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui rounded image" alt="" style="width: 110px;">
                     </div>
                 </div>
             </div>
