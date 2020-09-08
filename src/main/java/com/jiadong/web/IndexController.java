@@ -36,13 +36,4 @@ public class IndexController {
         return "about";
     }
 
-    @GetMapping("/admin")
-    public String admin() {
-        return "admin/blogs";
-    }
-
-    @GetMapping("/admin-input")
-    public String adminInput() {
-        return "admin/blogs-input";
-    }
 }
