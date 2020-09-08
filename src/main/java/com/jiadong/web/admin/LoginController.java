@@ -23,6 +23,11 @@ public class LoginController {
         return "admin/login";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "admin/login";
+    }
+
     @PostMapping(value = "/login")
     public String login(@RequestParam String username,
                         @RequestParam String password,
@@ -46,6 +51,8 @@ public class LoginController {
         session.removeAttribute("user");
         return "redirect:/admin";
     }
+
+
 
 
 }

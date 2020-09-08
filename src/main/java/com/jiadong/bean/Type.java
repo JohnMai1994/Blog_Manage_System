@@ -1,5 +1,6 @@
 package com.jiadong.bean;
 
+import com.sun.istack.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
