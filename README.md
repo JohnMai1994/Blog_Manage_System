@@ -2,6 +2,15 @@
 该博客系统前端使用HTML、css、js，后端使用SpringBoot框架，jpa作为持久层，数据库Mysql5.7
 使用的技术有点旧，主要是拿来练手Springboot，之后会前后端分离
 
+##### 博客主页面
+![avatar](./pic/demo1.png)
+##### 博客登录系统
+![avatar](./pic/demo2.png)
+![avatar](./pic/demo3.png)
+##### 新增文章，分类，标签页面
+![avatar](./pic/demo4.png)
+##### 管理文章，分类，标签页面
+![avatar](./pic/demo5.png)
 ### 数据库建表语句
 
 ```sql
